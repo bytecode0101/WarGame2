@@ -5,6 +5,7 @@
         public Farm()
         {
             Name = "FARM";
+            Cost = 10;
         }
     }
 }
