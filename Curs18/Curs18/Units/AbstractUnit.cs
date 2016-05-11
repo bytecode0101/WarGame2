@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Curs18.Units
 {
-    public abstract class AbstractUnit: AbstractBuildable
+    public abstract class AbstractUnit: AbstractBuildable, IUnit
     {
         protected int speed;
         protected int damage;

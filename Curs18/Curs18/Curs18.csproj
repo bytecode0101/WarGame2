@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Units\IUnit.cs" />
     <Compile Include="Buildings\AbstractBuilding.cs" />
     <Compile Include="Buildings\Barrack.cs" />
     <Compile Include="Buildings\BowWorkshop.cs" />
@@ -66,9 +67,11 @@
     <Compile Include="Units\Attacks\BowAttack.cs" />
     <Compile Include="Units\Attacks\MeleeAttack.cs" />
     <Compile Include="Units\Attacks\SingingAttack.cs" />
+    <Compile Include="Units\Dragon.cs" />
     <Compile Include="Units\Mermaid.cs" />
     <Compile Include="Units\Peasant.cs" />
     <Compile Include="Units\Swordman.cs" />
+    <Compile Include="Units\Zeppelin.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram2.cd" />

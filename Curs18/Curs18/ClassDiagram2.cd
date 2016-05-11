@@ -94,45 +94,100 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Curs18.Units.AbstractUnit" Collapsed="true">
-    <Position X="11.75" Y="3.25" Width="1.5" />
+    <Position X="10" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAQAAAAAAACAAQAA=</HashCode>
       <FileName>Units\AbstractUnit.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Curs18.Units.Archer" Collapsed="true">
-    <Position X="9.5" Y="4.75" Width="1.5" />
+  <Class Name="Curs18.Units.Archer">
+    <Position X="8.25" Y="8" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Units\Archer.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Curs18.Units.Peasant" Collapsed="true">
-    <Position X="11.75" Y="4.75" Width="1.5" />
+  <Class Name="Curs18.Units.Peasant">
+    <Position X="10.25" Y="8" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Units\Peasant.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Curs18.Units.Swordman" Collapsed="true">
-    <Position X="13.75" Y="4.75" Width="1.5" />
+  <Class Name="Curs18.Units.Swordman">
+    <Position X="12.25" Y="8" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAI=</HashCode>
       <FileName>Units\Swordman.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Curs18.Units.Mermaid" Collapsed="true">
-    <Position X="15.75" Y="4.75" Width="1.5" />
+    <Position X="18" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
       <FileName>Units\Mermaid.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Curs18.Units.Zeppelin">
+    <Position X="16" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Units\Zeppelin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Curs18.Units.Dragon">
+    <Position X="14" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAI=</HashCode>
+      <FileName>Units\Dragon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Interface Name="Curs18.Common.IBuildable">
     <Position X="18.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQEAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAgAAAEAAAA=</HashCode>
       <FileName>Common\IBuildable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Curs18.Units.IUnit" Collapsed="true">
+    <Position X="14.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Units\IUnit.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Curs18.Units.IGroundUnit" Collapsed="true">
+    <Position X="14.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Units\IUnit.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Curs18.Units.IAirUnit" Collapsed="true">
+    <Position X="12.5" Y="4" Width="1.5" />
+    <InheritanceLine Type="Curs18.Units.IUnit" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="15.5" Y="3.312" />
+        <Point X="15.5" Y="3.687" />
+        <Point X="13.375" Y="3.687" />
+        <Point X="13.375" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Units\IUnit.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Curs18.Units.IWaterUnit" Collapsed="true">
+    <Position X="17" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Units\IUnit.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Enum Name="Curs18.Enums.State" Collapsed="true">
