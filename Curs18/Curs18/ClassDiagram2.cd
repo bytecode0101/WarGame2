@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Curs18.Models.Buildings.AbstractBuilding" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Buildings\AbstractBuilding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs18.Models.Buildings.Barrack" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Buildings\Barrack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs18.Models.Buildings.BowWorkshop" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Buildings\BowWorkshop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs18.Models.Buildings.Farm" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Buildings\Farm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs18.Buildings.Upgrades.AbstractUpgrade" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Buildings\Upgrades\AbstractUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs18.Buildings.Upgrades.GrandHouseUpgrade" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Buildings\Upgrades\GrandHouseUpgrade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs18.Common.AbstractBuildable" Collapsed="true">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQkAAAAAAAAAAAEgAAAAIBQAAAAUAAAEAQgABAEBAAA=</HashCode>
+      <FileName>Common\AbstractBuildable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Curs18.Common.AbstractSubject" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\AbstractSubject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Curs18.Common.Position" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAYAA=</HashCode>
+      <FileName>Common\Position.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs18.Models.Events.BuildingCompleteEventArgs">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Events\BuildingComplete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs18.Models.Events.BuildingStartedEventArgs">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Events\BuildingStarted.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs18.Models.Events.ComponentSelectedEventArgs" Collapsed="true">
+    <Position X="18.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\ComponentSelected.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs18.Models.Events.PercentageBuiltEventArgs">
+    <Position X="20.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\PercentageBuilt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs18.Units.AbstractUnit" Collapsed="true">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAQAAAAAAACAAQAA=</HashCode>
+      <FileName>Units\AbstractUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs18.Units.Archer" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Units\Archer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs18.Units.Peasant" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Units\Peasant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs18.Units.Swordman" Collapsed="true">
+    <Position X="13.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Units\Swordman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs18.Units.Mermaid" Collapsed="true">
+    <Position X="15.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Units\Mermaid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Curs18.Common.IBuildable">
+    <Position X="18.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAgAAAEAAAA=</HashCode>
+      <FileName>Common\IBuildable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Curs18.Enums.State" Collapsed="true">
+    <Position X="20.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Enums\State.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Curs18.Enums.TerrainType" Collapsed="true">
+    <Position X="20.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Enums\TerrainType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Curs18.Models.Events.BuildingComplete" Collapsed="true">
+    <Position X="18.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\BuildingComplete.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Curs18.Models.Events.BuildingStarted" Collapsed="true">
+    <Position X="20.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\BuildingStarted.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Curs18.Models.Events.ComponentSelected" Collapsed="true">
+    <Position X="18.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\ComponentSelected.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Curs18.Models.Events.PercentageBuilt" Collapsed="true">
+    <Position X="20.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Events\PercentageBuilt.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
