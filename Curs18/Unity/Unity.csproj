@@ -41,8 +41,85 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TilePathGame\Assets\Battleship\Attack.cs" />
+    <Compile Include="TilePathGame\Assets\Battleship\AttackResult.cs" />
+    <Compile Include="TilePathGame\Assets\Battleship\Battleship.cs" />
+    <Compile Include="TilePathGame\Assets\Battleship\Coordinate.cs" />
+    <Compile Include="TilePathGame\Assets\Battleship\Destroyer.cs" />
+    <Compile Include="TilePathGame\Assets\Battleship\Fleet.cs" />
+    <Compile Include="TilePathGame\Assets\Battleship\Game.cs" />
+    <Compile Include="TilePathGame\Assets\Battleship\Grid.cs" />
+    <Compile Include="TilePathGame\Assets\Battleship\Minesweeper.cs" />
+    <Compile Include="TilePathGame\Assets\Battleship\Orientation.cs" />
+    <Compile Include="TilePathGame\Assets\Battleship\Player.cs" />
+    <Compile Include="TilePathGame\Assets\Battleship\Ship.cs" />
+    <Compile Include="TilePathGame\Assets\Battleship\ShipState.cs" />
+    <Compile Include="TilePathGame\Assets\Battleship\TypeOfShip.cs" />
+    <Compile Include="TilePathGame\Assets\ClickableTile.cs" />
+    <Compile Include="TilePathGame\Assets\GameLogic.cs" />
+    <Compile Include="TilePathGame\Assets\Node.cs" />
+    <Compile Include="TilePathGame\Assets\TileMap.cs" />
+    <Compile Include="TilePathGame\Assets\TileType.cs" />
+    <Compile Include="TilePathGame\Assets\Unit.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="TilePathGame\Assets\Battleship.meta" />
+    <None Include="TilePathGame\Assets\Battleship\Attack.cs.meta" />
+    <None Include="TilePathGame\Assets\Battleship\AttackResult.cs.meta" />
+    <None Include="TilePathGame\Assets\Battleship\Battleship.cs.meta" />
+    <None Include="TilePathGame\Assets\Battleship\Coordinate.cs.meta" />
+    <None Include="TilePathGame\Assets\Battleship\Destroyer.cs.meta" />
+    <None Include="TilePathGame\Assets\Battleship\Fleet.cs.meta" />
+    <None Include="TilePathGame\Assets\Battleship\Game.cs.meta" />
+    <None Include="TilePathGame\Assets\Battleship\Grid.cs.meta" />
+    <None Include="TilePathGame\Assets\Battleship\Minesweeper.cs.meta" />
+    <None Include="TilePathGame\Assets\Battleship\Orientation.cs.meta" />
+    <None Include="TilePathGame\Assets\Battleship\Player.cs.meta" />
+    <None Include="TilePathGame\Assets\Battleship\Ship.cs.meta" />
+    <None Include="TilePathGame\Assets\Battleship\ShipState.cs.meta" />
+    <None Include="TilePathGame\Assets\Battleship\TypeOfShip.cs.meta" />
+    <None Include="TilePathGame\Assets\Chess Pieces.meta" />
+    <None Include="TilePathGame\Assets\Chess Pieces\BattleshipModel.prefab" />
+    <None Include="TilePathGame\Assets\Chess Pieces\BattleshipModel.prefab.meta" />
+    <None Include="TilePathGame\Assets\Chess Pieces\chess_0.blend" />
+    <None Include="TilePathGame\Assets\Chess Pieces\chess_0.blend.meta" />
+    <None Include="TilePathGame\Assets\Chess Pieces\DestroyerModel.prefab" />
+    <None Include="TilePathGame\Assets\Chess Pieces\DestroyerModel.prefab.meta" />
+    <None Include="TilePathGame\Assets\Chess Pieces\Materials.meta" />
+    <None Include="TilePathGame\Assets\Chess Pieces\Materials\Material_003.mat" />
+    <None Include="TilePathGame\Assets\Chess Pieces\Materials\Material_003.mat.meta" />
+    <None Include="TilePathGame\Assets\Chess Pieces\Materials\unnamed.mat" />
+    <None Include="TilePathGame\Assets\Chess Pieces\Materials\unnamed.mat.meta" />
+    <None Include="TilePathGame\Assets\Chess Pieces\Materials\White_marble.mat" />
+    <None Include="TilePathGame\Assets\Chess Pieces\Materials\White_marble.mat.meta" />
+    <None Include="TilePathGame\Assets\Chess Pieces\MinesweeperModel.prefab" />
+    <None Include="TilePathGame\Assets\Chess Pieces\MinesweeperModel.prefab.meta" />
+    <None Include="TilePathGame\Assets\Chess Pieces\README.txt.meta" />
+    <None Include="TilePathGame\Assets\Chess Pieces\UnitModel.prefab" />
+    <None Include="TilePathGame\Assets\Chess Pieces\UnitModel.prefab.meta" />
+    <None Include="TilePathGame\Assets\ClickableTile.cs.meta" />
+    <None Include="TilePathGame\Assets\GameLogic.cs.meta" />
+    <None Include="TilePathGame\Assets\Node.cs.meta" />
+    <None Include="TilePathGame\Assets\Tile Visuals.meta" />
+    <None Include="TilePathGame\Assets\Tile Visuals\Mask.jpg.meta" />
+    <None Include="TilePathGame\Assets\Tile Visuals\MaskNorm.jpg.meta" />
+    <None Include="TilePathGame\Assets\Tile Visuals\matGrass.mat" />
+    <None Include="TilePathGame\Assets\Tile Visuals\matGrass.mat.meta" />
+    <None Include="TilePathGame\Assets\Tile Visuals\matMountain.mat" />
+    <None Include="TilePathGame\Assets\Tile Visuals\matMountain.mat.meta" />
+    <None Include="TilePathGame\Assets\Tile Visuals\matSwamp.mat" />
+    <None Include="TilePathGame\Assets\Tile Visuals\matSwamp.mat.meta" />
+    <None Include="TilePathGame\Assets\Tile Visuals\tileGrass.prefab" />
+    <None Include="TilePathGame\Assets\Tile Visuals\tileGrass.prefab.meta" />
+    <None Include="TilePathGame\Assets\Tile Visuals\tileMountain.prefab" />
+    <None Include="TilePathGame\Assets\Tile Visuals\tileMountain.prefab.meta" />
+    <None Include="TilePathGame\Assets\Tile Visuals\tileSwamp.prefab" />
+    <None Include="TilePathGame\Assets\Tile Visuals\tileSwamp.prefab.meta" />
+    <None Include="TilePathGame\Assets\TileMap.cs.meta" />
+    <None Include="TilePathGame\Assets\TileType.cs.meta" />
+    <None Include="TilePathGame\Assets\Unit.cs.meta" />
+    <None Include="TilePathGame\Assets\_SCENE_.unity" />
+    <None Include="TilePathGame\Assets\_SCENE_.unity.meta" />
     <None Include="TilePathGame\ProjectSettings\AudioManager.asset" />
     <None Include="TilePathGame\ProjectSettings\ClusterInputManager.asset" />
     <None Include="TilePathGame\ProjectSettings\DynamicsManager.asset" />
@@ -62,6 +139,9 @@
     <None Include="TilePathGame\ProjectSettings\UnityConnectSettings.asset" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="TilePathGame\Assets\Chess Pieces\README.txt" />
+    <Content Include="TilePathGame\Assets\Tile Visuals\Mask.jpg" />
+    <Content Include="TilePathGame\Assets\Tile Visuals\MaskNorm.jpg" />
     <Content Include="TilePathGame\ProjectSettings\ProjectVersion.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
