@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Curs18", "Curs18\Curs18.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarGameTest", "WarGameTest\WarGameTest.csproj", "{3DCF60A4-6549-4C09-96CA-B42B6B1F653C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity", "Unity\Unity.csproj", "{33D8F22F-70D2-43A5-B80A-EA96CE56DD6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3DCF60A4-6549-4C09-96CA-B42B6B1F653C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DCF60A4-6549-4C09-96CA-B42B6B1F653C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DCF60A4-6549-4C09-96CA-B42B6B1F653C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33D8F22F-70D2-43A5-B80A-EA96CE56DD6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D8F22F-70D2-43A5-B80A-EA96CE56DD6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D8F22F-70D2-43A5-B80A-EA96CE56DD6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D8F22F-70D2-43A5-B80A-EA96CE56DD6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
